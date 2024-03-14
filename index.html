@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Rock-Paper-Scissors (1 Tag)</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+    <main>
+        <section class="feld1">
+            <h1>Rock Paper Scissors</h1>
+            <h3>Choose your weapon</h3>
+            <p>YOU choose: <span class="you"></span></p>
+            <p>ENEMY choose: <span  class="enemy"></span></p>
+            <p>Result: <span class="result"></span></p>
+        </section>
+
+            <section class="feld2">
+            <button onclick="startGame('rock')" class="rock" ><img src="/assets/Bilder/stein.png" alt=""></button>
+
+            <button onclick="startGame('scissors')" class="scissors" ><img src="/assets/Bilder/schere.png" alt=""></button>
+
+            <button onclick="startGame('paper')" class="paper" ><img src="/assets/Bilder/papier.png" alt=""></button>
+        </section>
+
+        <div class="inputButton">
+            <input type="submit" value="RESTART GAME" id="restartGame" onclick="restart()">
+        </div>
+
+    </main>
+
+
+    <script src="/assets/main.js"></script>
+</body>
+</html>
